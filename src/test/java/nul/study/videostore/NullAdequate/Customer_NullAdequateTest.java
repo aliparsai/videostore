@@ -1,5 +1,7 @@
 package nul.study.videostore.NullAdequate;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,17 +16,25 @@ public class Customer_NullAdequateTest {
 	public void setUp() {
 		customerInstance = new Customer("Ali");
 	}
-	
-	@Test(expected=NullPointerException.class)
-	public void testMutant13()
-	{
-		customerInstance.addRental(null);
+
+	@Test
+	public void testMutant13() {
+		try {
+			customerInstance.addRental(null);
+		} catch (NullPointerException e) {
+			assertTrue(e.getMessage().equals("rental object is Null"));
+		}
+
 	}
 	
-	@Test(expected=NullPointerException.class)
+	@Test
 	public void testMutant14()
 	{
-		new Customer(null);
+		try {
+			new Customer(null);
+		} catch (NullPointerException e) {
+			assertTrue(e.getMessage().equals("name is Null"));
+		}
 	}
 	
 }
