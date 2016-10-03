@@ -16,30 +16,17 @@ public class Movie_NullAdequateTest {
 	private Movie movieInstance3;
 
 	@Test
-	public void testMutant7() {
+	public void testMutant7()
+			throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
 		movieInstance1 = new ChildrensMovie("null");
 		movieInstance2 = new RegularMovie("null");
 		movieInstance3 = new NewReleaseMovie("null");
 
-		try {
-			Field field1 = ChildrensMovie.class.getDeclaredField("title");
-			Field field2 = RegularMovie.class.getDeclaredField("title");
-			Field field3 = NewReleaseMovie.class.getDeclaredField("title");
-			field1.setAccessible(true);
-			field2.setAccessible(true);
-			field3.setAccessible(true);
-			try {
-				field1.set(movieInstance1, null);
-				field2.set(movieInstance2, null);
-				field3.set(movieInstance3, null);
-
-			} catch (IllegalArgumentException | IllegalAccessException e) {
-				assert false;
-			}
-
-		} catch (NoSuchFieldException | SecurityException e1) {
-			assert false;
-		}
+		Field field = Movie.class.getDeclaredField("title");
+		field.setAccessible(true);
+		field.set(movieInstance1, null);
+		field.set(movieInstance2, null);
+		field.set(movieInstance3, null);
 
 		try {
 			movieInstance1.getTitle();
