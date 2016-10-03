@@ -3,6 +3,9 @@ package nul.study.videostore;
 public class Rental {
 
 	public Rental(Movie movie, int daysRented) {
+		if (movie == null)
+			throw new NullPointerException("movie is Null");
+
 		this.movie = movie;
 		this.daysRented = daysRented;
 	}

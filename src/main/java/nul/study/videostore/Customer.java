@@ -4,12 +4,21 @@ import java.util.Vector;
 import java.util.Enumeration;
 
 public class Customer {
-	public Customer(String name) {
+	public Customer(String name) throws NullPointerException {
+
+		if (name == null)
+			throw new NullPointerException("name is Null");
+
 		this.name = name;
 	}
 
-	public void addRental(Rental rental) {
+	public void addRental(Rental rental) throws NullPointerException {
+
+		if (rental == null)
+			throw new NullPointerException("rental object is Null");
+
 		rentals.addElement(rental);
+
 	}
 
 	public String getName() {

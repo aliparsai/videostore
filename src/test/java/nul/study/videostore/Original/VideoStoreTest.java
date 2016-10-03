@@ -1,9 +1,12 @@
-package nul.study.videostore;
+package nul.study.videostore.Original;
 
 import org.junit.Before;
 import org.junit.Test;
 
+import nul.study.videostore.ChildrensMovie;
 import nul.study.videostore.Customer;
+import nul.study.videostore.NewReleaseMovie;
+import nul.study.videostore.RegularMovie;
 import nul.study.videostore.Rental;
 
 import static org.junit.Assert.assertEquals;

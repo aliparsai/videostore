@@ -9,8 +9,11 @@ public abstract class Movie {
 	private String title;
 	private int priceCode;
 
-	public Movie(String title, int priceCode) {
+	public Movie(String title, int priceCode) throws NullPointerException {
 		this.title = title;
+		if (title == null)
+			throw new NullPointerException("title is Null");
+
 		this.priceCode = priceCode;
 	}
 
@@ -22,7 +25,10 @@ public abstract class Movie {
 		priceCode = code;
 	}
 
-	public String getTitle() {
+	public String getTitle() throws NullPointerException {
+		if (title == null)
+			throw new NullPointerException("title is Null");
+
 		return title;
 	}
 
