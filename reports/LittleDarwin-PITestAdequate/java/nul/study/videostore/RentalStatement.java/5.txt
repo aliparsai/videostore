@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building videostore 0.0.1-toy
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ videostore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/aliparsai/Study/NullCheckProj/videostore/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ videostore ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/aliparsai/Study/NullCheckProj/videostore/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/aliparsai/Study/NullCheckProj/videostore/src/main/java/nul/study/videostore/RentalStatement.java:[24,56] bad operand types for binary operator '-'
+  first type:  java.lang.String
+  second type: java.lang.String
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.667 s
+[INFO] Finished at: 2016-10-05T17:55:20+02:00
+[INFO] Final Memory: 14M/208M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project videostore: Compilation failure
+[ERROR] /Users/aliparsai/Study/NullCheckProj/videostore/src/main/java/nul/study/videostore/RentalStatement.java:[24,56] bad operand types for binary operator '-'
+[ERROR] first type:  java.lang.String
+[ERROR] second type: java.lang.String
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

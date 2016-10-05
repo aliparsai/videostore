@@ -1,0 +1,11 @@
+<list>
+  <de.unisb.cs.st.javalanche.mutation.runtime.testDriver.SingleTestResult>
+    <outcome>ERROR</outcome>
+    <testMessage>
+      <testCaseName>nul.study.videostore.PITestAdequate.CustomerTest.testRepeatNewReleaseStatement</testCaseName>
+      <message>org.junit.Assert.assertNotEquals(Ljava/lang/Object;Ljava/lang/Object;)V</message>
+      <hasTouched>false</hasTouched>
+      <duration>0</duration>
+    </testMessage>
+  </de.unisb.cs.st.javalanche.mutation.runtime.testDriver.SingleTestResult>
+</list>
