@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>
+nul.study.videostore.ChildrensMovie
+</title>
+<link href="prettify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="prettify.js"></script>
+</head>
+<body onload="prettyPrint()">
+<h2>Javalanche report for class:<br/> nul.study.videostore.ChildrensMovie </h2><pre class="prettyprint" style="border: 1px solid #888;padding: 2px"><span class="nocode"><a name="1">  1: </a></span>package nul.study.videostore;
+<span class="nocode"><a name="2">  2: </a></span>
+<span class="nocode"><a name="3">  3: </a></span>public class ChildrensMovie extends Movie {
+<span class="nocode"><a name="4">  4: </a></span>	public ChildrensMovie(String title) {
+<span class="nocode"><a name="5">  5: </a></span>		super(title, CHILDRENS);
+<span class="nocode"><a name="6">  6: </a></span>	}
+<span class="nocode"><a name="7">  7: </a></span>
+<span class="nocode"><a name="8">  8: </a></span>	@Override
+<span class="nocode"><a name="9">  9: </a></span>	public double determineAmount(int daysRented) throws Exception {
+<span class="nocode"><a name="10"> 10: </a></span>		double thisAmount = 1.5 + super.determineAmount(daysRented);
+<span class="nocode"><a name="11"> 11: </a></span>		if (daysRented &gt; 3)
+<span class="nocode"><a name="12"> 12: </a></span>			thisAmount += (daysRented - 3) * 1.5;
+<span class="nocode"><a name="13"> 13: </a></span>
+<span class="nocode"><a name="14"> 14: </a></span>		return thisAmount;
+<span class="nocode"><a name="15"> 15: </a></span>	}
+<span class="nocode"><a name="16"> 16: </a></span>
+<span class="nocode"><a name="17"> 17: </a></span>	@Override
+<span class="nocode"><a name="18"> 18: </a></span>	public int determineFrequentRenterPoints(int daysRented) {
+<span class="nocode"><a name="19"> 19: </a></span>		return 1;
+<span class="nocode"><a name="20"> 20: </a></span>	}
+<span class="nocode"><a name="21"> 21: </a></span>}
+</pre><table class="mutation_table" summary="Mutations">
+<tr><th>ID</th><th>Line</th><th>Type</th><th>Detected</th></tr><tr><td>29</td><td><a href="#5">5</a></td><td>Replace a constant (Replace 2 with 3(INT))</td><td><img src="detected.png"/></td></tr>
+<tr><td>27</td><td><a href="#5">5</a></td><td>Replace a constant (Replace 2 with 0(INT))</td><td><img src="detected.png"/></td></tr>
+<tr><td>28</td><td><a href="#5">5</a></td><td>Replace a constant (Replace 2 with 1(INT))</td><td><img src="detected.png"/></td></tr>
+<tr><td>30</td><td><a href="#10">10</a></td><td>Replace a constant (Replace 1.5 with 0(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>32</td><td><a href="#10">10</a></td><td>Replace a constant (Replace 1.5 with 2.5(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>31</td><td><a href="#10">10</a></td><td>Replace a constant (Replace 1.5 with 0.5(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>34</td><td><a href="#10">10</a></td><td>Replace arithmetic operator (Replace DADD with DSUB)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>33</td><td><a href="#10">10</a></td><td>Remove method call</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>35</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>37</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3 with 4(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>36</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3 with 2(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>38</td><td><a href="#11">11</a></td><td>Negate jump condition (Replace IF_ICMPLE with  IF_ICMPGT)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>40</td><td><a href="#12">12</a></td><td>Replace a constant (Replace 3 with 2(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>39</td><td><a href="#12">12</a></td><td>Replace a constant (Replace 3 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>41</td><td><a href="#12">12</a></td><td>Replace a constant (Replace 3 with 4(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>44</td><td><a href="#12">12(1)</a></td><td>Replace a constant (Replace 1.5 with 0.5(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>43</td><td><a href="#12">12(1)</a></td><td>Replace a constant (Replace 1.5 with 0(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>45</td><td><a href="#12">12(1)</a></td><td>Replace a constant (Replace 1.5 with 2.5(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>42</td><td><a href="#12">12</a></td><td>Replace arithmetic operator (Replace ISUB with IADD)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>46</td><td><a href="#12">12(1)</a></td><td>Replace arithmetic operator (Replace DMUL with DADD)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>47</td><td><a href="#12">12(2)</a></td><td>Replace arithmetic operator (Replace DADD with DSUB)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>49</td><td><a href="#19">19</a></td><td>Replace a constant (Replace 1 with 2(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>48</td><td><a href="#19">19</a></td><td>Replace a constant (Replace 1 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>
+nul.study.videostore.NewReleaseMovie
+</title>
+<link href="prettify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="prettify.js"></script>
+</head>
+<body onload="prettyPrint()">
+<h2>Javalanche report for class:<br/> nul.study.videostore.NewReleaseMovie </h2><pre class="prettyprint" style="border: 1px solid #888;padding: 2px"><span class="nocode"><a name="1">  1: </a></span>package nul.study.videostore;
+<span class="nocode"><a name="2">  2: </a></span>
+<span class="nocode"><a name="3">  3: </a></span>public class NewReleaseMovie extends Movie {
+<span class="nocode"><a name="4">  4: </a></span>	public NewReleaseMovie(String title) {
+<span class="nocode"><a name="5">  5: </a></span>		super(title, NEW_RELEASE);
+<span class="nocode"><a name="6">  6: </a></span>	}
+<span class="nocode"><a name="7">  7: </a></span>
+<span class="nocode"><a name="8">  8: </a></span>	@Override
+<span class="nocode"><a name="9">  9: </a></span>	public double determineAmount(int daysRented) throws Exception {
+<span class="nocode"><a name="10"> 10: </a></span>		double thisAmount = super.determineAmount(daysRented);
+<span class="nocode"><a name="11"> 11: </a></span>		return thisAmount + (daysRented * 3.0);
+<span class="nocode"><a name="12"> 12: </a></span>	}
+<span class="nocode"><a name="13"> 13: </a></span>
+<span class="nocode"><a name="14"> 14: </a></span>	@Override
+<span class="nocode"><a name="15"> 15: </a></span>	public int determineFrequentRenterPoints(int daysRented) {
+<span class="nocode"><a name="16"> 16: </a></span>		return (daysRented &gt; 1) ? 2 : 1;
+<span class="nocode"><a name="17"> 17: </a></span>	}
+<span class="nocode"><a name="18"> 18: </a></span>}
+</pre><table class="mutation_table" summary="Mutations">
+<tr><th>ID</th><th>Line</th><th>Type</th><th>Detected</th></tr><tr><td>51</td><td><a href="#5">5</a></td><td>Replace a constant (Replace 1 with 2(INT))</td><td><img src="detected.png"/></td></tr>
+<tr><td>50</td><td><a href="#5">5</a></td><td>Replace a constant (Replace 1 with 0(INT))</td><td><img src="detected.png"/></td></tr>
+<tr><td>52</td><td><a href="#10">10</a></td><td>Remove method call</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>55</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3.0 with 4.0(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>54</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3.0 with 2.0(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>53</td><td><a href="#11">11</a></td><td>Replace a constant (Replace 3.0 with 0(DOUBLE))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>56</td><td><a href="#11">11</a></td><td>Replace arithmetic operator (Replace DMUL with DADD)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>57</td><td><a href="#11">11(1)</a></td><td>Replace arithmetic operator (Replace DADD with DSUB)</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>58</td><td><a href="#16">16</a></td><td>Replace a constant (Replace 1 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>59</td><td><a href="#16">16</a></td><td>Replace a constant (Replace 1 with 2(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>61</td><td><a href="#16">16(1)</a></td><td>Replace a constant (Replace 2 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>63</td><td><a href="#16">16(1)</a></td><td>Replace a constant (Replace 2 with 3(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>62</td><td><a href="#16">16(1)</a></td><td>Replace a constant (Replace 2 with 1(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>64</td><td><a href="#16">16(2)</a></td><td>Replace a constant (Replace 1 with 0(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>65</td><td><a href="#16">16(2)</a></td><td>Replace a constant (Replace 1 with 2(INT))</td><td><img src="not_detected.png"/></td></tr>
+<tr><td>60</td><td><a href="#16">16</a></td><td>Negate jump condition (Replace IF_ICMPLE with  IF_ICMPGT)</td><td><img src="not_detected.png"/></td></tr>
+</table>
+</body>
+</html>

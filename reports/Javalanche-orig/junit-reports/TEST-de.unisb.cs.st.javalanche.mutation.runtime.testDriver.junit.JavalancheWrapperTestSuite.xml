@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="WirelessPersoneel-143169153003.uantwerpen.be" name="de.unisb.cs.st.javalanche.mutation.runtime.testDriver.junit.JavalancheWrapperTestSuite" tests="0" time="2.213" timestamp="2016-10-05T15:31:50">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="run.mutations.javalanche.project.tests" value="-Djavalanche.tests=nul.study.videostore.Original.VideoStoreTest" />
+    <property name="ant.file.type.javalanche-add-tasks" value="file" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes" />
+    <property name="run.mutations.javalanche.run.mode" value="-Djavalanche.run.mode=mutation" />
+    <property name="user.country.format" value="BE" />
+    <property name="javalanche.single.task.file.name" value="/Users/aliparsai/Study/NullCheckProj/videostore/mutation-files/nul.study.videostore_single-task.txt" />
+    <property name="javalanche.maxmemory" value="2048m" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.9.7/libexec" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="javalanche.out.dir" value="/Users/aliparsai/Study/NullCheckProj/videostore/mutation-files" />
+    <property name="user.name" value="aliparsai" />
+    <property name="project.prefix" value="nul.study.videostore" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib" />
+    <property name="proj.shortname" value="javalanche" />
+    <property name="run.mutations.mutation.javaagent" value="-javaagent:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/javaagent.jar" />
+    <property name="run.mutations.listener" value="-Djavalanche.mutation.test.listener=de.unisb.cs.st.javalanche.mutation.runtime.jmx.JmxMutationTestListener" />
+    <property name="javalanche" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4" />
+    <property name="ant.project.name" value="Javalanche" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="user.timezone" value="" />
+    <property name="project.tests" value="nul.study.videostore.Original.VideoStoreTest" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="javalanche.tests" value="nul.study.videostore.Original.VideoStoreTest" />
+    <property name="ant.file.type.javalanche-import" value="file" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="ant.file.javalanche-import" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/import.xml" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="cp" value="/Users/aliparsai/Study/NullCheckProj/videostore/target/test-classes:/Users/aliparsai/Study/NullCheckProj/videostore/target/classes:/Users/aliparsai/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/aliparsai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="javalanche.add.commands" value="-Xmx2048m -Djavalanche.use.junit3runner=false -Djavalanche.trace.bytecode=false -Djavalanche.log.level=notSet " />
+    <property name="java.class.version" value="52.0" />
+    <property name="javalanche.use.junit3runner" value="false" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/aliparsai/Study/NullCheckProj/videostore/javalanche.xml" />
+    <property name="os.version" value="10.11.6" />
+    <property name="run.mutations.mutation.file" value="-Djavalanche.mutation.file=mutation-files/mutation-task-nul_study_videostore-01.txt" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="javalanche.mutation.javaagent" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/javaagent.jar" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.9.7/libexec/lib" />
+    <property name="mutation.file" value="mutation-files/mutation-task-nul_study_videostore-01.txt" />
+    <property name="javalanche.dist.dir" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="javalanche.run.mode" value="mutation" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="javalanche.arg.line" value="  -javaagent:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/javaagent.jar -Xmx2048m -Djavalanche.use.junit3runner=false -Djavalanche.trace.bytecode=false -Djavalanche.log.level=notSet  -Djavalanche.run.mode=mutation -Djavalanche.project.prefix=nul.study.videostore -Djavalanche.tests=nul.study.videostore.Original.VideoStoreTest -Djavalanche.mutation.file=mutation-files/mutation-task-nul_study_videostore-01.txt -Djavalanche.mutation.test.listener=de.unisb.cs.st.javalanche.mutation.runtime.jmx.JmxMutationTestListener " />
+    <property name="user.home" value="/Users/aliparsai" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/aliparsai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="javalanche.mutation.output.dir" value="/Users/aliparsai/Study/NullCheckProj/videostore/mutation-files" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner de.unisb.cs.st.javalanche.mutation.runtime.testDriver.junit.JavalancheWrapperTestSuite filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/aliparsai/Study/NullCheckProj/videostore/mutation-files/junit-reports/TEST-de.unisb.cs.st.javalanche.mutation.runtime.testDriver.junit.JavalancheWrapperTestSuite.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/aliparsai/Study/NullCheckProj/videostore/mutation-files/junit-reports/TEST-de.unisb.cs.st.javalanche.mutation.runtime.testDriver.junit.JavalancheWrapperTestSuite.txt crashfile=/Users/aliparsai/Study/NullCheckProj/videostore/junitvmwatcher8997943386368826767.properties propsfile=/Users/aliparsai/Study/NullCheckProj/videostore/junit3776766118449768083.properties" />
+    <property name="java.class.path" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/src/main/resources:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/antlr-2.7.6.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/asm-debug-all-3.3.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/bsh-2.0b4.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/c3p0-0.9.1.2.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/cglib-nodep-2.1_3.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/commons-collections-2.1.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/commons-io-2.0.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/commons-lang-2.6.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/commons-logging-1.0.4.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/dom4j-1.6.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/ds-util-0.3.2.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/ehcache-1.2.3.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/freemarker-2.3.8.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/guava-r09.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hamcrest-core-1.3.RC2.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hamcrest-integration-1.3.RC2.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hamcrest-library-1.3.RC2.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hibernate-3.2.7.ga.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hibernate-annotations-3.3.0.ga.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hibernate-commons-annotations-3.3.0.ga.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hibernate-tools-3.2.3.GA.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/hsqldb-1.8.0.10.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/javalanche-0.4.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/jgrapht-jdk1.5-0.7.3.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/jta-1.0.1B.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/jtidy-r8-20060801.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/junit-dep-4.8.2.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/log4j-1.2.16.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/mysql-connector-java-5.1.17.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/opencsv-2.3.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/persistence-api-1.0.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/xmlpull-1.1.3.1.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/xpp3_min-1.1.4c.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/xstream-1.4.1.jar:/Users/aliparsai/Study/NullCheckProj/videostore/target/test-classes:/Users/aliparsai/Study/NullCheckProj/videostore/target/classes:/Users/aliparsai/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/aliparsai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aliparsai/.ant/lib/junit.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant.jar:/Users/aliparsai/.ant/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-junit4.jar:/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/javaagent.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="javalanche.mutation.file" value="mutation-files/mutation-task-nul_study_videostore-01.txt" />
+    <property name="javalanche.project.prefix" value="nul.study.videostore" />
+    <property name="ant.file.type.Javalanche" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="javalanche.add.arg" value="" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="tests" value="nul.study.videostore.Original.VideoStoreTest" />
+    <property name="java.io.tmpdir" value="/var/folders/rb/rbt1t5912z3b8_x0h_dcnn6w0000gn/T/" />
+    <property name="ant.file.javalanche-tasks" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/src/main/resources/javalanche-tasks.xml" />
+    <property name="prefix" value="nul.study.videostore" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.Javalanche" value="/Users/aliparsai/Study/NullCheckProj/videostore/javalanche.xml" />
+    <property name="javalanche.dir" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4" />
+    <property name="ant.file.javalanche-add-tasks" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/src/main/resources/javalanche-add-tasks.xml" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="javalanche.wrapper.testsuite" value="de.unisb.cs.st.javalanche.mutation.runtime.testDriver.junit.JavalancheWrapperTestSuite" />
+    <property name="javalanche.mutation.test.listener" value="de.unisb.cs.st.javalanche.mutation.runtime.jmx.JmxMutationTestListener" />
+    <property name="java.ext.dirs" value="/Users/aliparsai/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/aliparsai/Study/NullCheckProj/videostore" />
+    <property name="run.mutations.javalanche.package.prefix" value="-Djavalanche.project.prefix=nul.study.videostore" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="javalanche.log.level" value="notSet" />
+    <property name="basedir" value="/Users/aliparsai/Study/NullCheckProj/videostore" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.7/libexec/lib/ant.jar" />
+    <property name="javalanche.trace.bytecode" value="false" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="javalanche.task" value="javalancheTask" />
+    <property name="javalanche.config.properties" value="" />
+    <property name="javalanche.location" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4" />
+    <property name="mutation.jars.dir" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4/lib/" />
+    <property name="junit3" value="false" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="mutation.base.dir" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4" />
+    <property name="ant.project.invoked-targets" value="javalancheTask" />
+    <property name="ant.file.type.javalanche-tasks" value="file" />
+  </properties>
+  <system-out><![CDATA[Applying 1th mutation with id 1. Running 4 tests
+Applying 2th mutation with id 5. Running 1 tests
+Applying 3th mutation with id 6. Running 1 tests
+Applying 4th mutation with id 27. Running 1 tests
+Applying 5th mutation with id 28. Running 1 tests
+Applying 6th mutation with id 29. Running 1 tests
+Applying 7th mutation with id 50. Running 2 tests
+Applying 8th mutation with id 51. Running 2 tests
+Applying 9th mutation with id 66. Running 4 tests
+Applying 10th mutation with id 67. Running 4 tests
+Applying 11th mutation with id 71. Running 4 tests
+Applying 12th mutation with id 72. Running 4 tests
+Applying 13th mutation with id 73. Running 4 tests
+Applying 14th mutation with id 74. Running 4 tests
+Applying 15th mutation with id 75. Running 4 tests
+Applying 16th mutation with id 76. Running 4 tests
+Applying 17th mutation with id 77. Running 4 tests
+Applying 18th mutation with id 78. Running 4 tests
+Applying 19th mutation with id 79. Running 4 tests
+Applying 20th mutation with id 80. Running 4 tests
+Applying 21th mutation with id 81. Running 4 tests
+Applying 22th mutation with id 82. Running 4 tests
+Applying 23th mutation with id 83. Running 4 tests
+Applying 24th mutation with id 84. Running 4 tests
+Applying 25th mutation with id 85. Running 4 tests
+Applying 26th mutation with id 86. Running 4 tests
+Applying 27th mutation with id 87. Running 4 tests
+Applying 28th mutation with id 88. Running 4 tests
+Applying 29th mutation with id 89. Running 1 tests
+Applying 30th mutation with id 90. Running 1 tests
+Applying 31th mutation with id 91. Running 1 tests
+Applying 32th mutation with id 92. Running 1 tests
+Applying 33th mutation with id 93. Running 1 tests
+Applying 34th mutation with id 94. Running 1 tests
+Applying 35th mutation with id 95. Running 1 tests
+Applying 36th mutation with id 96. Running 1 tests
+Applying 37th mutation with id 97. Running 1 tests
+Applying 38th mutation with id 98. Running 1 tests
+Applying 39th mutation with id 99. Running 1 tests
+Applying 40th mutation with id 100. Running 1 tests
+Applying 41th mutation with id 101. Running 1 tests
+Applying 42th mutation with id 102. Running 1 tests
+Applying 43th mutation with id 103. Running 1 tests
+Applying 44th mutation with id 104. Running 1 tests
+Applying 45th mutation with id 105. Running 1 tests
+Applying 46th mutation with id 106. Running 1 tests
+Applying 47th mutation with id 107. Running 1 tests
+Applying 48th mutation with id 108. Running 2 tests
+Applying 49th mutation with id 109. Running 2 tests
+Applying 50th mutation with id 110. Running 2 tests
+Applying 51th mutation with id 111. Running 2 tests
+Applying 52th mutation with id 112. Running 2 tests
+Applying 53th mutation with id 113. Running 2 tests
+Applying 54th mutation with id 114. Running 1 tests
+Applying 55th mutation with id 115. Running 1 tests
+Applying 56th mutation with id 116. Running 1 tests
+Applying 57th mutation with id 117. Running 1 tests
+Applying 58th mutation with id 118. Running 1 tests
+Applying 59th mutation with id 119. Running 1 tests
+Applying 60th mutation with id 120. Running 1 tests
+Applying 61th mutation with id 121. Running 1 tests
+Applying 62th mutation with id 122. Running 1 tests
+Applying 63th mutation with id 133. Running 4 tests
+Applying 64th mutation with id 134. Running 4 tests
+Applying 65th mutation with id 135. Running 4 tests
+Applying 66th mutation with id 136. Running 4 tests
+Applying 67th mutation with id 137. Running 4 tests
+Applying 68th mutation with id 138. Running 2 tests
+Applying 69th mutation with id 139. Running 2 tests
+Applying 70th mutation with id 140. Running 2 tests
+Applying 71th mutation with id 141. Running 2 tests
+Applying 72th mutation with id 142. Running 4 tests
+Applying 73th mutation with id 143. Running 4 tests
+Applying 74th mutation with id 144. Running 4 tests
+Applying 75th mutation with id 145. Running 4 tests
+Applying 76th mutation with id 146. Running 4 tests
+Applying 77th mutation with id 147. Running 4 tests
+Applying 78th mutation with id 148. Running 4 tests
+Applying 79th mutation with id 149. Running 4 tests
+Applying 80th mutation with id 150. Running 4 tests
+Applying 81th mutation with id 151. Running 4 tests
+Applying 82th mutation with id 152. Running 4 tests
+Applying 83th mutation with id 153. Running 4 tests
+Applying 84th mutation with id 154. Running 4 tests
+Applying 85th mutation with id 155. Running 4 tests
+Applying 86th mutation with id 156. Running 4 tests
+Applying 87th mutation with id 157. Running 4 tests
+Applying 88th mutation with id 158. Running 4 tests
+Applying 89th mutation with id 159. Running 4 tests
+Applying 90th mutation with id 160. Running 4 tests
+Applying 91th mutation with id 161. Running 4 tests
+Applying 92th mutation with id 162. Running 4 tests
+Applying 93th mutation with id 163. Running 4 tests
+Applying 94th mutation with id 164. Running 4 tests
+Applying 95th mutation with id 165. Running 4 tests
+ALL_RESULTS
+All mutations have results - this means they have already been applied and executed
+95 mutations were applied. 95 Mutation results were recorded. 95 Mutations where actually touched.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

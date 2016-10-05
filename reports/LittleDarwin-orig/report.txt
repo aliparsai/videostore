@@ -1,0 +1,7 @@
+java/nul/study/videostore/ChildrensMovie.java: survived (5/5) -> ['1.java', '2.java', '3.java', '4.java', '5.java'] - killed (0/5) -> []
+java/nul/study/videostore/Customer.java: survived (4/23) -> ['1.java', '2.java', '10.java', '19.java'] - killed (19/23) -> ['3.java', '4.java', '5.java', '6.java', '7.java', '8.java', '9.java', '11.java', '12.java', '13.java', '14.java', '15.java', '16.java', '17.java', '18.java', '20.java', '21.java', '22.java', '23.java']
+java/nul/study/videostore/Movie.java: survived (1/2) -> ['1.java'] - killed (1/2) -> ['2.java']
+java/nul/study/videostore/NewReleaseMovie.java: survived (3/3) -> ['1.java', '2.java', '3.java'] - killed (0/3) -> []
+java/nul/study/videostore/RegularMovie.java: survived (5/5) -> ['1.java', '2.java', '3.java', '4.java', '5.java'] - killed (0/5) -> []
+java/nul/study/videostore/Rental.java: survived (0/1) -> [] - killed (1/1) -> ['1.java']
+java/nul/study/videostore/RentalStatement.java: survived (2/5) -> ['3.java', '4.java'] - killed (3/5) -> ['1.java', '2.java', '5.java']

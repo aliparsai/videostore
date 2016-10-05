@@ -1,0 +1,7 @@
+# nul.study.videostore.ChildrensMovie
+# nul.study.videostore.Customer
+# nul.study.videostore.Movie
+# nul.study.videostore.NewReleaseMovie
+nul.study.videostore.Original.VideoStoreTest
+# nul.study.videostore.RegularMovie
+# nul.study.videostore.Rental

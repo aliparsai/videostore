@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building videostore 0.0.1-toy
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ videostore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/aliparsai/Study/NullCheckProj/videostore/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ videostore ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/aliparsai/Study/NullCheckProj/videostore/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ videostore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/aliparsai/Study/NullCheckProj/videostore/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ videostore ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ videostore ---
+[INFO] Surefire report directory: /Users/aliparsai/Study/NullCheckProj/videostore/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running nul.study.videostore.Original.VideoStoreTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.325 s
+[INFO] Finished at: 2016-10-05T16:07:43+02:00
+[INFO] Final Memory: 16M/208M
+[INFO] ------------------------------------------------------------------------
+
