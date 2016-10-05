@@ -2,11 +2,15 @@ package nul.study.videostore;
 
 public class Rental {
 
-	public Rental(Movie movie, int daysRented) {
-		if (movie == null)
-			throw new NullPointerException("movie is Null");
+	private Movie movie;
+	private int daysRented;
 
+	public Rental(Movie movie, int daysRented) {
 		this.movie = movie;
+
+		if (movie == null)
+			this.movie =  new RegularMovie(null);
+
 		this.daysRented = daysRented;
 	}
 
@@ -18,10 +22,7 @@ public class Rental {
 		return movie;
 	}
 
-	private Movie movie;
-	private int daysRented;
-
-	public double determineAmount() {
+	public double determineAmount() throws Exception {
 		return movie.determineAmount(daysRented);
 	}
 

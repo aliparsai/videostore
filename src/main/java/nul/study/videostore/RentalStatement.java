@@ -17,7 +17,7 @@ public class RentalStatement {
 		rentals.add(rental);
 	}
 
-	public String makeRentalStatement() {
+	public String makeRentalStatement() throws Exception {
 		clearTotals();
 		return makeHeader() + makeRentalLines() + makeSummary();
 	}
@@ -31,7 +31,7 @@ public class RentalStatement {
 		return "Rental Record for " + getName() + "\n";
 	}
 
-	private String makeRentalLines() {
+	private String makeRentalLines() throws Exception {
 		String rentalLines = "";
 
 		for (Rental rental : rentals)
@@ -40,7 +40,7 @@ public class RentalStatement {
 		return rentalLines;
 	}
 
-	private String makeRentalLine(Rental rental) {
+	private String makeRentalLine(Rental rental) throws Exception {
 		double thisAmount = rental.determineAmount();
 		frequentRenterPoints += rental.determineFrequentRenterPoints();
 		totalAmount += thisAmount;

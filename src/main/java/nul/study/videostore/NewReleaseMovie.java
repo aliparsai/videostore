@@ -6,8 +6,9 @@ public class NewReleaseMovie extends Movie {
 	}
 
 	@Override
-	public double determineAmount(int daysRented) {
-		return daysRented * 3.0;
+	public double determineAmount(int daysRented) throws Exception {
+		double thisAmount = super.determineAmount(daysRented);
+		return thisAmount + (daysRented * 3.0);
 	}
 
 	@Override

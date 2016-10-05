@@ -9,10 +9,11 @@ public abstract class Movie {
 	private String title;
 	private int priceCode;
 
-	public Movie(String title, int priceCode) throws NullPointerException {
+	public Movie(String title, int priceCode) {
 		this.title = title;
+
 		if (title == null)
-			throw new NullPointerException("title is Null");
+			this.title = "Untitled";
 
 		this.priceCode = priceCode;
 	}
@@ -25,14 +26,17 @@ public abstract class Movie {
 		priceCode = code;
 	}
 
-	public String getTitle() throws NullPointerException {
-		if (title == null)
-			throw new NullPointerException("title is Null");
-
+	public String getTitle() {
 		return title;
 	}
 
-	public abstract double determineAmount(int daysRented);
+	public double determineAmount(int daysRented) throws Exception
+	{
+		if (daysRented <= 0)
+			throw new Exception("Invalid value for daysRented.");
+		return 0;
+		
+	}
 
 	public abstract int determineFrequentRenterPoints(int daysRented);
 }

@@ -15,10 +15,9 @@ public class Customer {
 	public void addRental(Rental rental) throws NullPointerException {
 
 		if (rental == null)
-			throw new NullPointerException("rental object is Null");
-
+			rentals.addElement(new Rental(new RegularMovie(null), 0));
+		else
 		rentals.addElement(rental);
-
 	}
 
 	public String getName() {
