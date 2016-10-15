@@ -7,7 +7,8 @@
 -->
 
 	<property name="prefix" value="nul.study.videostore"/>
-	<property name="tests" value="nul.study.videostore.Original.VideoStoreTest:nul.study.videostore.PITestAdequate.AllTests"/>
+	<property name="tests" 
+value="nul.study.videostore.Original.VideoStoreTest:nul.study.videostore.PITestAdequate.AllTests:nul.study.videostore.JavalancheAdequate.Movie_JavalancheAdequateTest"/>
 	<property name="javalanche" value="/Users/aliparsai/Study/NullCheckProj/Javalanche/javalanche-0.4"/>
 	<property name="cp" value="/Users/aliparsai/Study/NullCheckProj/videostore/target/test-classes:/Users/aliparsai/Study/NullCheckProj/videostore/target/classes:/Users/aliparsai/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/aliparsai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
 

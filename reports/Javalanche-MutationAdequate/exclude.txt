@@ -1,0 +1,19 @@
+# nul.study.videostore.ChildrensMovie
+# nul.study.videostore.Customer
+nul.study.videostore.JavalancheAdequate.Movie_JavalancheAdequateTest
+# nul.study.videostore.Movie
+# nul.study.videostore.NewReleaseMovie
+nul.study.videostore.NullAdequate.AllTests
+nul.study.videostore.NullAdequate.Customer_NullAdequateTest
+nul.study.videostore.NullAdequate.Movie_NullAdequateTest
+nul.study.videostore.Original.VideoStoreTest
+nul.study.videostore.PITestAdequate.AllTests
+nul.study.videostore.PITestAdequate.ChildrensMovieTest
+nul.study.videostore.PITestAdequate.CustomerTest
+nul.study.videostore.PITestAdequate.NewReleaseMovieTest
+nul.study.videostore.PITestAdequate.RegularMovieTest
+nul.study.videostore.PITestAdequate.RentalStatementTest
+nul.study.videostore.PITestAdequate.RentalTest
+# nul.study.videostore.RegularMovie
+# nul.study.videostore.Rental
+# nul.study.videostore.RentalStatement
