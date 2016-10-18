@@ -6,53 +6,57 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ videostore ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /Users/aliparsai/Study/NullCheckProj/videostore/src/main/resources
+[INFO] skip non existing resourceDirectory /home/perham/Study/Experiments/NullExperiments/NullCheckProj/videostore/src/main/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ videostore ---
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ videostore ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 7 source files to /Users/aliparsai/Study/NullCheckProj/videostore/target/classes
+[INFO] Compiling 7 source files to /home/perham/Study/Experiments/NullExperiments/NullCheckProj/videostore/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ videostore ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /Users/aliparsai/Study/NullCheckProj/videostore/src/test/resources
+[INFO] skip non existing resourceDirectory /home/perham/Study/Experiments/NullExperiments/NullCheckProj/videostore/src/test/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ videostore ---
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ videostore ---
 [INFO] Nothing to compile - all classes are up to date
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ videostore ---
-[INFO] Surefire report directory: /Users/aliparsai/Study/NullCheckProj/videostore/target/surefire-reports
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ videostore ---
+[INFO] Surefire report directory: /home/perham/Study/Experiments/NullExperiments/NullCheckProj/videostore/target/surefire-reports
 
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-Running nul.study.videostore.NullAdequate.Customer_NullAdequateTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
-Running nul.study.videostore.NullAdequate.Movie_NullAdequateTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nul.study.videostore.Original.VideoStoreTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running nul.study.videostore.PITestAdequate.ChildrensMovieTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running nul.study.videostore.PITestAdequate.CustomerTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running nul.study.videostore.PITestAdequate.NewReleaseMovieTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running nul.study.videostore.PITestAdequate.RegularMovieTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in nul.study.videostore.Original.VideoStoreTest
+Running nul.study.videostore.NullAdequate.Movie_NullAdequateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.NullAdequate.Movie_NullAdequateTest
+Running nul.study.videostore.NullAdequate.Customer_NullAdequateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.NullAdequate.Customer_NullAdequateTest
+Running nul.study.videostore.NullAdequate.Rental_NullAdequateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.NullAdequate.Rental_NullAdequateTest
+Running nul.study.videostore.JavalancheAdequate.Movie_JavalancheAdequateTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.JavalancheAdequate.Movie_JavalancheAdequateTest
 Running nul.study.videostore.PITestAdequate.RentalStatementTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.PITestAdequate.RentalStatementTest
+Running nul.study.videostore.PITestAdequate.RegularMovieTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.PITestAdequate.RegularMovieTest
+Running nul.study.videostore.PITestAdequate.NewReleaseMovieTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in nul.study.videostore.PITestAdequate.NewReleaseMovieTest
 Running nul.study.videostore.PITestAdequate.RentalTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.PITestAdequate.RentalTest
+Running nul.study.videostore.PITestAdequate.ChildrensMovieTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.PITestAdequate.ChildrensMovieTest
+Running nul.study.videostore.PITestAdequate.CustomerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in nul.study.videostore.PITestAdequate.CustomerTest
 
 Results :
 
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.269 s
-[INFO] Finished at: 2016-10-05T18:49:44+02:00
-[INFO] Final Memory: 15M/167M
+[INFO] Total time: 2.156 s
+[INFO] Finished at: 2016-10-16T21:21:36+02:00
+[INFO] Final Memory: 14M/192M
 [INFO] ------------------------------------------------------------------------
 
